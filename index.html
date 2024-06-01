@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy - Online Gambling Gaming Company</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6600;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x600'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            animation: fadeIn 2s;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better text readability */
+            z-index: 1;
+        }
+        .hero h1, .hero p, .hero a {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .hero a {
+            background-color: white;
+            color: #ff6600;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .section .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+        .section .box {
+            flex: 1 1 calc(33.33% - 20px); /* Adjusts box width and spacing */
+            background-color: #ffe6cc; /* Light orange background */
+            margin: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .section .box img {
+            width: 400%;
+            height: 50%;
+            max-width: 500px; /* Limit max-width to ensure responsiveness */
+            margin-bottom: 10px;
+            animation: rotateIn 1s;
+        }
+        .section .box h3 {
+            margin: 10px 0 5px 0;
+        }
+        .testimonials {
+            background-color: #f9f9f9;
+        }
+        .testimonials p {
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .cta {
+            background-color: #ff6600;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .cta a {
+            background-color: white;
+            color: #ff6600;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes rotateIn {
+            from { transform: rotate(-360deg); }
+            to { transform: rotate(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ivy</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">What's Inside ivy</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Employee Talks</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Login</a>
+    </nav>
+    <div class="hero">
+        <div class="box-game">
+            <img src="casnio_2.jpg" alt="Variety of Games">
+            <h1>Welcome to ivy</h1>
+            <p>Your Ultimate Online Gaming Destination</p>
+        </div>
+        
+        
+        <a href="#">Get Started</a>
+    </div>
+    <div class="section features">
+        <h2>Why Choose Us?</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="variety_of_games.jpg" alt="Variety of Games">
+                <h3>Variety of Games</h3>
+                <p>We offer a wide range of exciting games for all types of players.</p>
+            </div>
+            <div class="box">
+                <img src="safe_and_secure.jpg" alt="Safe and Secure">
+                <h3>Safe and Secure</h3>
+                <p>Your security is our top priority. Play with confidence.</p>
+            </div>
+            <div class="box">
+                <img src="support.jpg" alt="24/7 Support">
+                <h3>24/7 Support</h3>
+                <p>Our friendly support team is here to help you anytime, anywhere.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section testimonials">
+        <h2>What Our Players Say</h2>
+        <p>"Ivy has the best games and amazing bonuses!" - Alex</p>
+        <p>"I love the user-friendly interface and great customer service." - Maria</p>
+        <p>"The promotions keep me coming back for more!" - John</p>
+    </div>
+    <div class="section employees">
+        <h2>What Our Employees Say</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="emp1.jpg" alt="Employee 1">
+                <h3>Emily Johnson</h3>
+                <p>"Working at Ivy has been a fantastic experience. The company culture is amazing!"</p>
+            </div>
+            <div class="box">
+                <img src="employee1 (1).jpg" alt="Employee 2">
+                <h3>Michael Smith</h3>
+                <p>"Ivy provides great opportunities for career growth and learning."</p>
+            </div>
+            <div class="box">
+                <img src="employee2.jpg" alt="Employee 3">
+                <h3>Sarah Williams</h3>
+                <p>"The team at Ivy is supportive and innovative. I love being part of it!"</p>
+            </div>
+        </div>
+    </div>
+    <div class="section technologies">
+        <h2>Technologies We Use</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="ai_image.jpg" alt="Tech 1">
+                <h3>Artificial Intelligence</h3>
+                <p>We leverage the power of AI to enhance gaming experiences.</p>
+            </div>
+            <div class="box">
+                <img src="web.jpg" alt="Tech 2">
+                <h3>Latest Web Technologies</h3>
+                <p>Our platform is built using the latest web technologies for performance and security.</p>
+            </div>
+            <div class="box">
+                <img src="homepage_tec.jpg" alt="Tech 3">
+                <h3>Cloud Computing</h3>
+                <p>We utilize cloud computing to ensure our services are always available.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section careers">
+        <h2>Careers at Ivy</h2>
+        <div class="box-container">
+            <div class="box">
+                <img src="work.jpg" alt="Career 1">
+                <h3>Software Engineer</h3>
+                <p>Join our team of talented engineers and work on cutting-edge technology.</p>
+            </div>
+            <div class="box">
+                <img src="office.jpg" alt="Career 2">
+                <h3>Customer Support Specialist</h3>
+                <p>Help us provide top-notch support to our players worldwide.</p>
+            </div>
+            <div class="box">
+                <img src="employee3.jpg" alt="Career 3">
+                <h3>Marketing Manager</h3>
+                <p>Lead our marketing efforts and help us grow our player base.</p>
+            </div>
+        </div>
+        <a href="#" style="background-color: #ff6600; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">View Open Positions</a>
+    </div>
+    <div class="cta">
+        <h2>Ready to Play?</h2>
+        <p>Join now and get a welcome bonus!</p>
+        <a href="#">Sign Up</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Ivy. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
